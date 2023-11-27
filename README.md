@@ -11,7 +11,7 @@ This project is set up using Docker. To run it simply utilize the make commands 
 1. `make build`: build the docker image & compose network (alias for `docker-compose build`)
 2. `make run`: run the container in detatched state (alias for `docker-compose up -d`)
 3. `make shell`: get a bash shell into the container, then run python files as desired
-   1. e.g: `python src/basics/03_hello_world.py`
+   1. e.g: `python src/basics/00_hello_world.py`
 
 ### Additional Commands
 - `make stop`: stop the docker compose network (alias for `docker-compose down`)
